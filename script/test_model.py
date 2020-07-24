@@ -4,7 +4,7 @@
 # import the necessary packages
 from tensorflow.keras.preprocessing.image import img_to_array
 from tensorflow.keras.models import load_model
-from dl4cv_pyimagesearch_utils_captchahelper.captchahelper import preprocess
+from dl4cv_pyimagesearch_utils.captchahelper import preprocess
 from imutils import contours
 from imutils import paths
 import numpy as np

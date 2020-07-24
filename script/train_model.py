@@ -8,7 +8,7 @@ from sklearn.metrics import classification_report
 from tensorflow.keras.preprocessing.image import img_to_array
 from tensorflow.keras.optimizers import SGD
 from dl4cv_pyimagesearch_nn_conv.lenet import LeNet
-from dl4cv_pyimagesearch_utils_captchahelper.captchahelper import preprocess
+from dl4cv_pyimagesearch_utils.captchahelper import preprocess
 from imutils import paths
 import matplotlib.pyplot as plt
 import numpy as np
